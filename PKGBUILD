@@ -1,7 +1,7 @@
 # Maintainer: artist for SonicDE
 
 pkgname=sonic-login-manager
-pkgver=6.6.5.1
+pkgver=6.6.5.2
 pkgrel=1
 arch=(x86_64)
 pkgdesc='Sonic Login Manager'
@@ -48,4 +48,4 @@ package() {
   DESTDIR="$pkgdir" cmake --install build
 }
 
-sha256sums=('0176728e17293d2eb1f24f7c0b7ec1c67c2c91ad5237cffe619640580235763f')
+sha256sums=('6edf935bae7f00fa98f1578744e98d8ade4addc70b2098d22e80c272200691e9')

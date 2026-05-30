@@ -1,6 +1,6 @@
 pkgbase = sonic-login-manager
 	pkgdesc = Sonic Login Manager
-	pkgver = 6.6.5.1
+	pkgver = 6.6.5.2
 	pkgrel = 1
 	url = https://github.com/Sonic-DE/sonic-login-manager
 	arch = x86_64
@@ -33,7 +33,7 @@ pkgbase = sonic-login-manager
 	provides = plasma-login-manager
 	conflicts = plasma-login-manager
 	replaces = plasma-login-manager
-	source = sonic-login-manager-6.6.5.1.tar.gz::https://github.com/Sonic-DE/sonic-login-manager/archive/refs/tags/6.6.5.1.tar.gz
-	sha256sums = 0176728e17293d2eb1f24f7c0b7ec1c67c2c91ad5237cffe619640580235763f
+	source = sonic-login-manager-6.6.5.2.tar.gz::https://github.com/Sonic-DE/sonic-login-manager/archive/refs/tags/6.6.5.2.tar.gz
+	sha256sums = 6edf935bae7f00fa98f1578744e98d8ade4addc70b2098d22e80c272200691e9
 
 pkgname = sonic-login-manager
