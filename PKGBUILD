@@ -2,7 +2,7 @@
 
 pkgname=sonic-login-manager
 pkgver=6.6.5.3
-pkgrel=2
+pkgrel=3
 arch=(x86_64)
 pkgdesc='Sonic Login Manager'
 url="https://github.com/Sonic-DE/$pkgname"
@@ -48,4 +48,4 @@ package() {
   DESTDIR="$pkgdir" cmake --install build
 }
 
-sha256sums=('79892e0622c46ab5caa2aeec452e5de0af3a834fb2a007ba8056a2ee892293d6')
+sha256sums=('e88db02268f5e4a0f2221f269f0e4491b18affbabd75c58d9a04390a35f701d4')
