@@ -34,7 +34,8 @@ depends=(glibc
          xorg-server)
 makedepends=(qt6-tools
              sonic-frameworks-cmake-modules)
-provides=('plasma-login-manager')
+provides=(plasma-login-manager)
+conflicts=(plasma-login-manager)
 groups=(sonicde)
 source=("$pkgname-$pkgver.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
 sha256sums=('cd16964d24c381cfcb669bc2771f8094e6ede38ac1c99a9193e1624589c12737')
