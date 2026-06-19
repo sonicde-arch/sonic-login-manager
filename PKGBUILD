@@ -3,7 +3,7 @@
 
 pkgname=sonic-login-manager
 pkgver=6.6.5.6
-pkgrel=3
+pkgrel=4
 arch=(x86_64)
 pkgdesc='Sonic Login Manager'
 url='https://github.com/Sonic-DE/sonic-login-manager'
