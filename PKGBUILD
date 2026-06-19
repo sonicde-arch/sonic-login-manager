@@ -9,14 +9,10 @@ pkgdesc='Sonic Login Manager'
 url='https://github.com/Sonic-DE/sonic-login-manager'
 license=(GPL-2.0-or-later)
 depends=(glibc
-         kauth
          kcmutils
          kconfig
-         kcoreaddons
          kdbusaddons
          ki18n
-         kio
-         kirigami
          kpackage
          kservice
          libstdc++
@@ -26,17 +22,21 @@ depends=(glibc
          qt6-base
          qt6-declarative
          sh
+         sonic-frameworks-auth
+         sonic-frameworks-core-addons
+         sonic-frameworks-io
+         sonic-frameworks-quick-ui
          sonic-frameworks-windowsystem
          sonic-interface-libraries
          sonic-screen-library
          sonic-workspace
          systemd-libs
          xorg-server)
-makedepends=(extra-cmake-modules
-             qt6-tools)
+makedepends=(qt6-tools
+             sonic-frameworks-cmake-modules)
 provides=('plasma-login-manager')
 groups=(sonicde)
-source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/$pkgver.tar.gz")
+source=("$pkgname-$pkgver.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
 sha256sums=('cd16964d24c381cfcb669bc2771f8094e6ede38ac1c99a9193e1624589c12737')
 
 build() {
